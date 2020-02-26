@@ -12,7 +12,7 @@ class Shop extends Component {
         const {collections }= this.state;
         return (
             <div className="shop-page">
-                SHOP PAGE
+                
                 {collections.map(({id,...otherCollectionProps}) => (
                     <CollectionPreview  key = {id}{...otherCollectionProps}/>
                 ))}
